@@ -39,7 +39,7 @@ class LoginPage extends StatelessWidget {
              const SizedBox(height: 50),
 
               //Welcome Message
-             Text('Inicio de Sesion',
+           const  Text('Inicio de Sesion',
              style: TextStyle(
               color: const Color.fromARGB(255, 0, 0, 0),
               fontSize: 16,
@@ -67,13 +67,13 @@ class LoginPage extends StatelessWidget {
               const SizedBox(height: 15),
               
               //Olvidaste tu contraseña
-              Padding(
-                padding: const EdgeInsets.symmetric(horizontal: 25.0),
+              const Padding(
+                padding:  EdgeInsets.symmetric(horizontal: 25.0),
                 child: Row(
                   mainAxisAlignment: MainAxisAlignment.end,
                   children: [
                     Text('¿Olvidaste tu contraseña?',
-                    style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)),
+                    style: TextStyle(color:  Color.fromARGB(255, 0, 0, 0)),
                     ),
                   ],
                 ),
@@ -102,11 +102,11 @@ class LoginPage extends StatelessWidget {
                     ),
 
 
-                  Padding(
-                    padding: const EdgeInsets.symmetric(horizontal: 25.0),
+                  const Padding(
+                    padding:  EdgeInsets.symmetric(horizontal: 25.0),
                     child: Text(
                       'Continuar con',
-                      style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)),
+                      style: TextStyle(color:  Color.fromARGB(255, 0, 0, 0)),
                       ),
                   ),
                       Expanded(
@@ -122,9 +122,9 @@ class LoginPage extends StatelessWidget {
 
             const SizedBox(height: 25),
             //Login Options
-            Row(
+            const Row(
               mainAxisAlignment: MainAxisAlignment.center,
-              children: const [
+              children:  [
                 //Google
 
                 SquareTile(imagePath: 'lib/images/google.png'),
